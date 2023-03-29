@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Vote</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="programming_languages">
+        <item></item>
+        <item>ပွဲနံပါတ်၁</item>
+        <item>ပွဲနံပါတ်၂</item>
+        <item>ပွဲနံပါတ်၃</item>
+        <item>ပွဲနံပါတ်၄</item>
+        <item>ပွဲနံပါတ်၅</item>
+    </string-array>
+
+</resources>

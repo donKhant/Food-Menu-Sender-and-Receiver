@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginVertical="6dp">
+
+            <ImageView
+                android:id="@+id/meatCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/steak" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/meatCategory"
+                android:layout_alignBottom="@+id/meatCategory"
+                android:shadowColor="@color/white"
+                android:shadowDx="6.0"
+                android:shadowDy="6.0"
+                android:shadowRadius="1.9"
+                android:paddingBottom="@dimen/dimen_10"
+                android:textAlignment="center"
+                android:textSize="32dp"
+                android:textColor="@color/yellow_700"
+                android:text="Main course"
+                android:textAllCaps="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginVertical="6dp">
+
+            <ImageView
+                android:id="@+id/breakfast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/indian_food" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/breakfast"
+                android:layout_alignBottom="@+id/breakfast"
+                android:shadowColor="@color/white"
+                android:shadowDx="6.9"
+                android:shadowDy="6.9"
+                android:shadowRadius="4.6"
+                android:paddingBottom="@dimen/dimen_10"
+                android:textAlignment="center"
+                android:textSize="35dp"
+                android:textColor="@color/yellow_900"
+                android:text="Breakfast"
+                android:textAllCaps="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginVertical="@dimen/dimen_10">
+
+            <ImageView
+                android:id="@+id/vegan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/vegan" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/vegan"
+                android:layout_alignBottom="@+id/vegan"
+                android:shadowColor="@color/white"
+                android:shadowDx="7.9"
+                android:shadowDy="7.9"
+                android:shadowRadius="4.6"
+                android:paddingBottom="@dimen/dimen_10"
+                android:textAlignment="center"
+                android:textSize="42dp"
+                android:textColor="@color/green_300"
+                android:text="S  a  l  a  d"
+                android:textAllCaps="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginVertical="@dimen/dimen_10">
+
+            <ImageView
+                android:id="@+id/drink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/drink" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/drink"
+                android:layout_alignBottom="@+id/drink"
+                android:layout_alignTop="@+id/drink"
+                android:shadowColor="@color/white"
+                android:shadowDx="7.9"
+                android:shadowDy="7.9"
+                android:shadowRadius="4.6"
+                android:paddingBottom="@dimen/dimen_10"
+                android:textAlignment="center"
+                android:textSize="42dp"
+                android:textColor="@color/green_800"
+                android:text="D  r  i  n  k"
+                android:textAllCaps="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
