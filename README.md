@@ -17,7 +17,7 @@ Digital Menu where Sqlite and Firebase works together.
  * A pseudo food delivery app that implements Sqlite and Firebase in one app.
  *
  * User Guide :
- * The app display a nice looking food menu. Add any item you like to the inventory with animated buttons.
+ * The app display a nice looking food menu. Add any item you like to the inventory by clicking on animated buttons.
  * From inventory, you can confirm to send the orders to another application.
  *
  * Developer Guide
