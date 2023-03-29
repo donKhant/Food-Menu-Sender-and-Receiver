@@ -35,3 +35,6 @@ the orders right away to another app. I want a confirmation stage.
 To solve that, I could have used a boolean to check for.
 I have done that before.
 This time, I am using Sqlite because I can!
+
+Snapshots!
+
