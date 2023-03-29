@@ -30,7 +30,7 @@ Digital Menu where Sqlite and Firebase works together.
  * documentation - @todo
  */
 
-Why use Firebase and Sqlite? I don't want to send
+Why use both Firebase and Sqlite in one app? I don't want to send
 the orders right away to another app. I want a confirmation stage.
 To solve that, I could have used a boolean to check for.
 I have done that before.
